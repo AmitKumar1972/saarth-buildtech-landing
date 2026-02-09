@@ -16,9 +16,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// const fontStylesheetUrl =
+//   "https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500&display=swap";
+
 export const metadata: Metadata = {
   title: "Inteo – Award Winning Studio",
   description: "We help bring your dream home to reality.",
+  // links: [{ rel: "stylesheet", href: fontStylesheetUrl }],
 };
 
 export default function RootLayout({

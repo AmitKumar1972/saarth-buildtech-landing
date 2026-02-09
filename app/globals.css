@@ -1,19 +1,44 @@
 @import "tailwindcss";
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500&display=swap");
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #0a0a0a;
-    color: #ededed;
-  }
-}
+@config "../tailwind.config.ts";
 
 html {
   scroll-behavior: smooth;
 }
 
-body {
-  background-color: #ffffff;
-  color: #171717;
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  body {
+    @apply font-body font-light text-neutral-900 antialiased;
+    background-color: #ffffff;
+  }
+}
+
+/* Tailwind v4: container padding (Inteo had theme container padding; v4 needs @utility) */
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+@media (min-width: 40rem) {
+  .container {
+    padding-inline: 2rem;
+  }
+}
+@media (min-width: 48rem) {
+  .container {
+    padding-inline: 2.5rem;
+  }
+}
+@media (min-width: 64rem) {
+  .container {
+    padding-inline: 2rem;
+  }
+}
+@media (min-width: 80rem) {
+  .container {
+    padding-inline: 2rem;
+  }
+}
+@media (min-width: 96rem) {
+  .container {
+    padding-inline: 10rem;
+  }
 }
