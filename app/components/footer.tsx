@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import socials from "../data/social.json";
 
 const Footer = () => {
@@ -18,12 +17,14 @@ const Footer = () => {
             <h3 className="font-display text-display-sm md:text-display-lg font-normal pb-4">
               Start Building Something You’ll Love
             </h3>
-            <Link
-              href="/"
+            <a
+              href="https://wa.me/919501799936"
+              target="_blank"
+              rel="noreferrer"
               className="font-display text-display-sm md:text-display-lg italic text-primary-600 underline"
             >
               Send us a hi
-            </Link>
+            </a>
           </div>
 
           {/* Right */}

@@ -16,11 +16,11 @@ const Header = () => {
           <div className="flex gap-8 items-center">
             <Link href="/">
               <Image
-                src="/images/logos/logo-dark.svg"
+                src="/images/logos/saarth.svg"
                 alt="Logo"
-                width={128}
-                height={32}
-                className="h-8 w-auto cursor-pointer"
+                width={1000}
+                height={1000}
+                className="h-20 w-auto cursor-pointer"
               />
             </Link>
           </div>
@@ -38,7 +38,7 @@ const Header = () => {
               ))}
             </nav>
 
-            <Button label="CONTACT US" link="#" />
+            <Button label="CONTACT US" link="https://wa.me/919501799936" />
           </div>
         </div>
       </div>
