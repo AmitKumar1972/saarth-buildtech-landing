@@ -1,5 +1,5 @@
 import Eyebrow from "./eyebrow";
-import ServiceItem from "./serviceItem";
+import services from "../data/services.json";
 
 const Services = () => {
   return (
@@ -10,34 +10,21 @@ const Services = () => {
             <div className="lg:col-span-8">
               <Eyebrow label="OUR SERVICES" />
               <h2 className="font-display md:text-display-xl text-display-md pt-5">
-                We provide the <span className="italic">best solutions</span>{" "}
-                for your dream home
+                Our <span className="italic">Services</span>
               </h2>
             </div>
           </div>
 
-          <div className="flex lg:flex-row flex-col gap-8">
-            <ServiceItem
-              icon="/images/service-icons/interior-design.svg"
-              title="Architectural & Interior design"
-              description="Non diam pretium tristique augue placerat dolor. Accumsan nibh
-                nunc, molestie volutpat ipsum, ultricies."
-            />
-
-            <ServiceItem
-              icon="/images/service-icons/building-renovation.svg"
-              title="Building Renovation"
-              description="Non diam pretium tristique augue placerat dolor. Accumsan nibh
-                nunc, molestie volutpat ipsum, ultricies."
-            />
-
-            <ServiceItem
-              icon="/images/service-icons/construction.svg"
-              title="Construction Management"
-              description="Non diam pretium tristique augue placerat dolor. Accumsan nibh
-                nunc, molestie volutpat ipsum, ultricies."
-            />
-          </div>
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 list-none p-0 m-0">
+            {services.map((name) => (
+              <li
+                key={name}
+                className="flex flex-col justify-center md:p-6 p-5 border border-primary-100 font-display text-display-sm md:text-display-md font-normal text-neutral-900"
+              >
+                {name}
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>

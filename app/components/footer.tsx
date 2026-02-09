@@ -16,7 +16,7 @@ const Footer = () => {
           {/* Left */}
           <div className="lg:col-span-6 md:pr-24">
             <h3 className="font-display text-display-sm md:text-display-lg font-normal pb-4">
-              Kick-start your dream home with us
+              Start Building Something You’ll Love
             </h3>
             <Link
               href="/"
@@ -30,11 +30,7 @@ const Footer = () => {
           <div className="lg:col-span-6 flex flex-col gap-8 lg:pl-48 xl:pl-80">
             <div className="flex flex-col gap-2">
               <p className="font-display text-display-xs font-normal">
-                Brooklyn, New York
-              </p>
-              <p className="text-body-sm font-light text-neutral-900">
-                962 Fifth Avenue Str, 3rd Floor-Trump Building NY 10006, United
-                State.
+                Saarth Buildtech Private Limited, Chandigarh, Punjab, India
               </p>
             </div>
 
@@ -43,10 +39,10 @@ const Footer = () => {
                 Email us at
               </p>
               <a
-                href="mailto:hello@landify.design"
+                href="mailto:info@saarthbuildtech.in"
                 className="font-display text-display-xs font-normal text-primary-600"
               >
-                hello@landify.design
+                info@saarthbuildtech.in
               </a>
             </div>
 
@@ -55,10 +51,10 @@ const Footer = () => {
                 If you&apos;re hurry, quick call for us
               </p>
               <a
-                href="tel:+86631250859"
+                href="tel:+919501799936"
                 className="font-display text-display-xs font-normal text-primary-600"
               >
-                +8 (663) 125-08-59
+                +91 9501799936
               </a>
             </div>
           </div>
@@ -72,14 +68,8 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="flex flex-col gap-8 md:mb-20 mb-10 lg:flex-row lg:items-center lg:justify-between">
           <div className="text-body-md font-light">
-            © {new Date().getFullYear()} Inteo – Award winning studio. Made with
-            love by{" "}
-            <a
-              href="https://landify.design/?ref=inteo"
-              className="text-primary-600"
-            >
-              Landify
-            </a>
+            © {new Date().getFullYear()} Saarth Buildtech Private Limited –
+            Quality construction & renovation experts.
           </div>
 
           <div className="flex flex-col gap-4 md:gap-6 lg:flex-row lg:items-center">

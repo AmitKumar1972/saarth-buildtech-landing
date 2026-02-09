@@ -16,16 +16,42 @@ const About = () => {
             </h2>
 
             <p className="text-body-md md:text-body-lg font-light text-neutral-700">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
-              fringilla dui amet faucibus nam. Erat id laoreet posuere etiam
-              morbi.
+              Saarth Buildtech Private Limited is a trusted and professional
+              construction company providing high-quality construction services
+              for residential, commercial, and industrial projects.Saarth
+              Buildtech Private Limited is a rapidly Growing Construction
+              company headquartered in Chandigarh, Saarth Buildtech private
+              Limited Founded by Mr. Devesh Pal Singh,we bring over 11 Years of
+              work Experiance to the industry.With a background in working with
+              reputable construction Company. Mr Devesh has honed His Skillsand
+              cultivated a customer base of over 150 Clients.
             </p>
 
             <p className="text-body-md md:text-body-lg font-light text-neutral-700">
-              Tempor dolor elementum tellus non ipsum faucibus. Justo, magna
-              mauris posuere auctor justo. Habitant proin aliquet volutpat leo
-              ultricies. Dui blandit eget vitae turpis ultrices aliquet nunc.
-              Faucibus sit odio bibendum lobortis diam.
+              Our focus is on strong structures, modern designs, and on-time
+              project delivery. We prioritize safety, quality, and complete
+              client satisfaction in every project we undertake.
+            </p>
+            <p className="text-body-md md:text-body-lg font-light text-neutral-700">
+              SAARTH BUILDTECH PRIVATE LIMITED offers a comprehensive range of
+              Construction services across 20 cities in Punjab, Chandigarh,
+              Himachal Pradesh, and Delhi NCR. Our commitment to 100% client
+              satisfaction drives everything we do.
+            </p>
+            <p className="text-body-md md:text-body-lg font-light text-neutral-700">
+              At Saarth, we believe that every space has the potential to
+              inspire, comfort, and reflect the essence of those who inhabit it.
+              Whether you’re looking to construct your home, office, Hotel or
+              commercial space, our team of experienced Architect and Civil
+              Engineer is dedicated to delivering exceptional results that
+              exceed your expectations.
+            </p>
+            <p className="text-body-md md:text-body-lg font-light text-neutral-700">
+              With years of experience in the industry, we have built a
+              reputation for delivering exceptional results that exceed our
+              clients’ expectations. From conceptualization to execution, we
+              guide you through every step of the design process, ensuring that
+              your vision is realized with precision and care
             </p>
           </div>
 

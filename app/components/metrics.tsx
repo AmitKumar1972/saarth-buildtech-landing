@@ -16,21 +16,21 @@ const Metrics = () => {
 
             <div className="md:col-span-4 flex xl:flex-row md:flex-col flex-row xl:gap-4 md:gap-0 gap-4 xl:items-center md:items-start items-center">
               <p className="font-display md:text-display-xl text-display-lg font-normal">
-                250
+                60+
               </p>
               <p className="text-body-sm font-normal tracking-wider pt-2">
-                EMPLOYEES ON <br />
-                WORLDWIDE
+                EMPLOYEES ON OUR <br />
+                TEAM
               </p>
             </div>
 
             <div className="md:col-span-4 flex xl:flex-row md:flex-col flex-row xl:gap-4 md:gap-0 gap-4 xl:items-center md:items-start items-center">
               <p className="font-display md:text-display-xl text-display-lg font-normal">
-                3469
+                150+
               </p>
               <p className="text-body-sm font-normal tracking-wider pt-2">
-                PROJECTS COMPLETED <br />
-                ON 60 COUNTRIES
+                CLIENTS SERVED <br />
+                ACROSS INDIA
               </p>
             </div>
           </div>
