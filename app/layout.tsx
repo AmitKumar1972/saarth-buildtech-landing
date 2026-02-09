@@ -20,8 +20,8 @@ const geistMono = Geist_Mono({
 //   "https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500&display=swap";
 
 export const metadata: Metadata = {
-  title: "Inteo – Award Winning Studio",
-  description: "We help bring your dream home to reality.",
+  title: "Saarth Buildtech Private Limited",
+  description: "We Make Your Dreams Come True",
   // links: [{ rel: "stylesheet", href: fontStylesheetUrl }],
 };
 
